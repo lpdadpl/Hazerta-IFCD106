@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Ejercicio04-DAO
+  main:
+    banner-mode: "console"
+  banner:
+    location: "banner.txt"
