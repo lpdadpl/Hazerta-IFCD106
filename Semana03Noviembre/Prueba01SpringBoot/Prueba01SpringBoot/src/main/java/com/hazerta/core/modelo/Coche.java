@@ -11,15 +11,15 @@ import org.springframework.stereotype.Component;
 @Component
 public class Coche implements IVehiculo{
 
-    protected int deposito;
+    protected Integer deposito;
 
     @Override
     public String moverse() {
 
-        if(deposito>0){
-            return "el coche se esta moviendo";
-        }else(deposito=== null){
+        if(deposito == null){
             return "no se tienen datos del deposito";
+        } else if(deposito>0){
+            return "el coche se esta moviendo";
         }
         return "Se necesita ir a la gasolinera";
     }

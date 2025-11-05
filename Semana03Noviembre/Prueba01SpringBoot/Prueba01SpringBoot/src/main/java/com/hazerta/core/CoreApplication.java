@@ -19,7 +19,6 @@ public class CoreApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("Hola mundo");
         System.out.println(c1.conducir());
     }
 }
