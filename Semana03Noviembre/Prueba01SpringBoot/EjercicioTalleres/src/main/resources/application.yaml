@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: EjercicioTalleres
+  main:
+      banner-mode: "console"
+  banner:
+      location: "banner.txt"
