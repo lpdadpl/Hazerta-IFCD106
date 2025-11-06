@@ -1,7 +1,7 @@
-package com.hazerta.Ejercicios.ejercicio4DAO;
+package com.hazerta.Ejercicios.ejercicio06InterfacesExcepciones.ejercicio4DAO;
 
-import com.hazerta.Ejercicios.ejercicio4DAO.modelo.AccesoDesarrollo;
-import com.hazerta.Ejercicios.ejercicio4DAO.modelo.ClienteDao;
+import com.hazerta.Ejercicios.ejercicio06InterfacesExcepciones.ejercicio4DAO.modelo.AccesoDesarrollo;
+import com.hazerta.Ejercicios.ejercicio06InterfacesExcepciones.ejercicio4DAO.modelo.ClienteDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

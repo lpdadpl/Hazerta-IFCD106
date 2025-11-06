@@ -1,4 +1,4 @@
-package com.hazerta.Ejercicios.ejercicio4DAO.modelo;
+package com.hazerta.Ejercicios.ejercicio06InterfacesExcepciones.ejercicio4DAO.modelo;
 
 import lombok.Data;
 import org.springframework.context.annotation.Primary;
