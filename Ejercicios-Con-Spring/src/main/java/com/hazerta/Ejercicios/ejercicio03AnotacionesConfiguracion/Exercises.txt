@@ -27,6 +27,8 @@ valores para generar un string como "Aplicación creada por {autor} en
 EJERCICIO 3 CAMBIAR EL NOMBRE DEL ARCHIVO APPLICATION.PROPERTIES EN UN
 PROYECTO DE SPRING BOOT, AUNQUE NO ES LO MÁS COMÚN.
 Usa spring.config.name
+
+
 EJERCICIO 4: CICLO DE VIDA DE UN BEAN
 Crea una clase ExternalService que simule la conexión a un servicio externo.
 Usa @PostConstruct para ejecutar el método initialize() que imprima "Conexión a
