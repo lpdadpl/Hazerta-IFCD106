@@ -15,7 +15,7 @@ import java.util.Objects;
 @AllArgsConstructor
 @Data
 @Embeddable
-public class AlumnoProfesorPK implements Serializable {
+public class AlumnoProfesorPK {
     @ManyToOne
     @JoinColumn(name="id_profesor", nullable = false,
             foreignKey = @ForeignKey(name="FK_ap_profesores"))

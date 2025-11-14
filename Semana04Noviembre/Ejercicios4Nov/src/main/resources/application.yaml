@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Ejercicios
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/northwind
+    username: postgres
+    password: a
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

@@ -14,5 +14,6 @@ public interface IServicioProducto {
     List<Producto> listarProductoPorPatron(String patron);
     List<Producto> listarProductoPorCategoria(int category_id);
     List<Producto> obtenerProductoPorPatronsql(String patron);
+
 }
 
