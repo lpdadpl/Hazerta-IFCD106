@@ -3,6 +3,6 @@ package com.hazerta.richardson.exception;
 public class NoEncontradoException extends RuntimeException{
 
     public NoEncontradoException(){
-         super("NO ENCONTRADO");
+         super("RECURSO NO ENCONTRADO");
     }
 }

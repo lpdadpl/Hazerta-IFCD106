@@ -6,12 +6,14 @@ import lombok.NoArgsConstructor;
 import org.springframework.cglib.core.Local;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 public class LogError {
 
-    private LocalDate fecha;
-    private String Detalle;
+    private LocalDateTime fecha;
+    private  String mensaje;
+    private String detalle;
 }

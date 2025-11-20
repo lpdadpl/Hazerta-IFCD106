@@ -29,8 +29,8 @@ public class PuestoTrabajoServiceImpl implements iServicePuestoTrabajo {
     }
 
     @Override
-    public PuestoTrabajo actualizarPuestoTrabajo(int id, PuestoTrabajo datosActualizados) {
-        datosActualizados.setId(id);
+    public PuestoTrabajo actualizarPuestoTrabajo(PuestoTrabajo datosActualizados) {
+        datosActualizados.setId(datosActualizados.getId());
         return puestoTrabajo.save(datosActualizados);
     }
 

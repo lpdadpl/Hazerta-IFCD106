@@ -8,6 +8,6 @@ public interface iServicePuestoTrabajo  {
     List<PuestoTrabajo> obtenerTodosLosPuestosTrabajo();
     PuestoTrabajo obtenerPuestoTrabajoPorId(int id);
     PuestoTrabajo crearPuestoTrabajo(PuestoTrabajo puestoTrabajo);
-    PuestoTrabajo actualizarPuestoTrabajo(int id, PuestoTrabajo puestoTrabajo);
+    PuestoTrabajo actualizarPuestoTrabajo(PuestoTrabajo puestoTrabajo);
     void eliminarPuestoTrabajo(int id);
 }
