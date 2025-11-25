@@ -2,11 +2,11 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "pnpm"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "fundamentos": {
+    "EjerciciosAngular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "fundamentos:build:production"
+              "buildTarget": "EjerciciosAngular:build:production"
             },
             "development": {
-              "buildTarget": "fundamentos:build:development"
+              "buildTarget": "EjerciciosAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
