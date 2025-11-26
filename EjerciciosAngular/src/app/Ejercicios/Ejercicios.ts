@@ -1,20 +1,19 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-ejercicio1',
+  selector: 'app-Ejercicios',
   imports: [],
-  templateUrl: './ejercicio1.html',
-  styleUrl: './ejercicio1.css',
+  templateUrl: './Ejercicios.html',
+  styleUrl: './Ejercicios.css',
 })
-
-
-export class Ejercicio1 {
+export class Ejercicios {
 
   texto: string = "Hola mundo";
   numero: number = 67;
   booleano: boolean = true;
   nulo: null = null;
   indefinido: undefined = undefined;
+
 
   Ejercicio1(): void {
     console.log(this.texto);
@@ -25,31 +24,32 @@ export class Ejercicio1 {
   }
 
   Ejercicio2(): void {
-    // Implementar ejercicio 2
+
   }
 
   Ejercicio3(): void {
-    // Implementar ejercicio 3
+
   }
 
   Ejercicio4(): void {
-    // Implementar ejercicio 4
+
   }
 
   Ejercicio5(): void {
-    // Implementar ejercicio 5
+
   }
 
   Ejercicio6(): void {
-    // Implementar ejercicio 6
+
   }
 
   Ejercicio7(): void {
-    // Implementar ejercicio 7
+
   }
 
   Ejercicio8(): void {
-    // Implementar ejercicio 8
+
   }
 
 }
+

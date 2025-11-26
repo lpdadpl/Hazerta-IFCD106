@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Ejercicio2 {
 
+  title: string = "Tarjeta de prueba"
+  subtitle: string = " Subtitulo Tarjeta de prueba"
+  description: string = "Esta es la descripcion asignada a la Tarjeta de prueba"
 }
