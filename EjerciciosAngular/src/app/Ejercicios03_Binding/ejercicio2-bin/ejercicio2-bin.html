@@ -1,0 +1,17 @@
+<p [style.color]="color">
+    Este Texto Muestra el Color seleccionado
+</p>    
+<p>
+    el color actual es el color {{color}}
+</p>
+<div>
+<button (click)="changeColor('red')">
+    Rojo
+</button>
+<button (click)="changeColor('green')">
+    Verde
+</button>
+<button (click)="changeColor('blue')">
+    Azul
+</button>
+</div>

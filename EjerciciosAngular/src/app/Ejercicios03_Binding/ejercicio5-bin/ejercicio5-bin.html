@@ -1,0 +1,10 @@
+<div>
+    <span>
+        el valor actual del contador es <b>{{contador}}</b>
+    </span>
+    <br>
+    <input type="number" [(ngModel)]="contador">
+    <button (click)="changeValue(contador)">Cambiar valor</button>
+    <br>
+    <button (click)="addOne()">+1</button>
+</div>

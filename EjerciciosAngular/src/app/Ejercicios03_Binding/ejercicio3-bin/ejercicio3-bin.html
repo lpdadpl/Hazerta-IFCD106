@@ -1,0 +1,9 @@
+<div>
+  <br>
+  <input type="text" [disabled]="isDisabled" placeholder="Soy un campo de texto">
+  <div>  
+    <button (click)="changeAbleOrNot()">
+      {{ isDisabled ? 'Deshabilitar' : 'Habilitar' }}
+    </button>
+  </div>
+</div>
