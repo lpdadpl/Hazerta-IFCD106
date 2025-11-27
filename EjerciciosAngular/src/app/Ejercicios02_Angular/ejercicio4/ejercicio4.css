@@ -1,0 +1,14 @@
+*{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+#tarjetas{
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

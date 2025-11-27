@@ -1,0 +1,10 @@
+*{
+    display: flexbox;
+    margin: auto;
+}
+table{
+    margin: 0.5rem;
+}
+table{
+    border: 1px solid black;
+}

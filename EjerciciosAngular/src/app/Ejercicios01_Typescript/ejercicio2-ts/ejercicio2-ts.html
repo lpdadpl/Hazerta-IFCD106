@@ -1,0 +1,20 @@
+<div>
+  <div>
+    <label
+      >Texto:
+      <input type="text" #txt placeholder="Nuevo texto" />
+    </label>
+  </div>
+  <br />
+  <div>
+    <label style="margin: 1rem"
+      >Número:
+      <input type="text" #num placeholder="Nuevo número" />
+    </label>
+  </div>
+  <br />
+  <div>
+    <button (click)="updateDatos(txt.value, num.value)">Actualizar</button>
+  </div>
+  <div *ngIf="mensajeError" style="color: red">{{ mensajeError }}</div>
+</div>
