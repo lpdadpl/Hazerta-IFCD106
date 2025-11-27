@@ -1,1 +1,20 @@
-<p>ejercicio6-bin works!</p>
+<form>
+  <label for="operacion">Elige la operación:</label>
+  <select id="operacion" [(ngModel)]="operacion" name="operacion">
+    <option value="suma">Suma (+)</option>
+    <option value="resta">Resta (-)</option>
+    <option value="multiplicacion">Multiplicación (×)</option>
+    <option value="division">División (÷)</option>
+    <option value="modulo">Módulo (%)</option>
+  </select>
+  <br><br>
+
+  <input type="number" [(ngModel)]="numero1" placeholder="Número 1" name="numero1">
+  <input type="number" [(ngModel)]="numero2" placeholder="Número 2" name="numero2">
+  <br><br>
+
+  <button type="button" (click)="Calculadora(operacion, numero1, numero2)">Calcular</button>
+  
+
+  <span>El resultado es {{resultado}}</span>
+</form>

@@ -6,5 +6,15 @@
     <input type="number" [(ngModel)]="contador">
     <button (click)="changeValue(contador)">Cambiar valor</button>
     <br>
-    <button (click)="addOne()">+1</button>
+    @if (contador > 0) {
+            <div>
+        <button (click)="restOne()">-1</button>
+    </div>
+    }
+    <div>
+        <button (click)="addOne()">+1</button>
+    </div>
+    <div>
+        <button (click)="set0()">volver a 0</button>
+    </div>
 </div>

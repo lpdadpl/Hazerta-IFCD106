@@ -11,11 +11,19 @@ export class Ejercicio5Bin {
 
   contador: number = 0;
 
+  restOne(){
+   this.contador--;
+  }
+
   addOne(){
    this.contador++;
   }
   changeValue(newValue: number){
     this.contador = newValue;
+  }
+
+  set0(){
+    this.contador = 0;
   }
 
 }

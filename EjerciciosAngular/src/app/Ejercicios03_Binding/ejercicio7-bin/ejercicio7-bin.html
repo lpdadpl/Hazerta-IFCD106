@@ -1,1 +1,24 @@
-<p>ejercicio7-bin works!</p>
+<form>
+    <input type="number" [(ngModel)]="cantidad" placeholder="Número 1" name="numero1">
+  <label for="operacion">Divisa Actual </label>
+  <select id="operacion" [(ngModel)]="divisa" name="operacion">
+    <option value="euro">Euro</option>
+    <option value="dolar">Dolar</option>
+    <option value="libra">Libra</option>
+  </select>
+  <br>
+    <label for="operacion">Divisa Deseada</label>
+  <select id="operacion" [(ngModel)]="newdivisa" name="operacion">
+    <option value="euro">Euro</option>
+    <option value="dolar">Dolar</option>
+    <option value="libra">Libra</option>
+</select>
+  <br>
+
+  <br><br>
+
+  <button type="button" (click)="CalculadoraDeDivisas(divisa, newdivisa, cantidad)">Calcular</button>
+  
+
+  <span>El resultado es {{cambio}}</span>
+</form>
