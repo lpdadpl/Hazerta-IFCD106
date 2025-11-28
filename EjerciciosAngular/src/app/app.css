@@ -1,4 +1,8 @@
-
+table{
+      border-color: white; /* Cambia el color de los bordes de la tabla */
+  border-style: solid; /* Establece el estilo de borde */
+  border-width: 5px;
+}
 
 
 
