@@ -18,8 +18,8 @@ export class Ejercicio5Bin {
   addOne(){
    this.contador++;
   }
-  changeValue(newValue: number){
-    this.contador = newValue;
+  changeValue(newValue: string){
+    this.contador = Number(newValue);
   }
 
   set0(){

@@ -3,8 +3,8 @@
         el valor actual del contador es <b>{{contador}}</b>
     </span>
     <br>
-    <input type="number" [(ngModel)]="contador">
-    <button (click)="changeValue(contador)">Cambiar valor</button>
+    <input type="number" #number>
+    <button (click)="changeValue(number.value)">Cambiar valor</button>
     <br>
     @if (contador > 0) {
             <div>
