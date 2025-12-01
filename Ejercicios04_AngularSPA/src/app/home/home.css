@@ -1,0 +1,63 @@
+/* Estilos Generales y Reset Básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa; /* Fondo gris claro */
+    color: #333;
+}
+
+/* 2. HERO SECTION */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+    min-height: 500px;
+    background-color: #e3f2fd; /* Un azul muy claro */
+}
+
+.hero-content {
+    background-image: url('assets/background.png');
+    max-width: 500px;
+    margin-right: 50px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #3f51b5;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* CTA Primario (el más grande y visible) */
+.cta-primary {
+    background-color: #3f51b5; /* El color primario */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-primary:hover {
+    background-color: #303f9f; /* Un tono más oscuro al pasar el ratón */
+}
+
+.hero-image {
+    /* Ajusta el tamaño de la imagen en tu diseño final */
+    max-width: 450px; 
+}
+
+/* Nota: Para que la imagen se vea, deberás añadir una etiqueta <img>
+   real dentro del div .hero-image en el HTML y darle estilo aquí,
+   por ejemplo: .hero-image img { width: 100%; height: auto; display: block; }
+*/
