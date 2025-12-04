@@ -33,7 +33,7 @@ import { Ejercicio7Atrib } from './Ejercicios04_Directivas/ejercicio7-atrib/ejer
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,
+  imports: [
     Ejercicio1Ts, Ejercicio2Ts, Ejercicio3Ts, Ejercicio4Ts, Ejercicio5Ts, Ejercicio6Ts, Ejercicio7Ts, Ejercicio8Ts, Ejercicio9Ts,
     Ejercicio1, Ejercicio2, Ejercicio3, Ejercicio4, Ejercicio5,
     Ejercicio1Bin, Ejercicio2Bin, Ejercicio3Bin, Ejercicio4Bin, Ejercicio5Bin, Ejercicio6Bin, Ejercicio7Bin,

@@ -11,12 +11,12 @@
     margin-bottom: 0.5rem;
     border: 1px solid black;
     border-radius: 0.25rem;
-    border-color: black;
+    border-color: white;
     
 }
 
 div{
-    border-color: black;
+    border-color: white;
 }
 
 #title{
