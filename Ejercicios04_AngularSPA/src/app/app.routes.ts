@@ -19,11 +19,8 @@ export const routes: Routes = [
     {path: 'contacto', component:FormularioContacto},
     {path: 'home-ex1', component:HomeEx1},
     {path: 'producto/:id', component:Parametro},
-    {path: 'home-ex2', component: HomeEx2,
-        children: [
-            { path: 'persona/:nombre', component:DetallesPersona}
-        ] 
-    },
+    {path: 'home-ex2', component: HomeEx2,},
+    {path: 'home-ex2/persona/:nombre/:ciudad', component:DetallesPersona}
     
 
 ];

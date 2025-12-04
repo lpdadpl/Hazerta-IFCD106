@@ -10,20 +10,17 @@ import { BackHome } from '../back-home/back-home';
 })
 export class DetallesPersona {
 
-  nombre: String | null = null
-  ciudad: String | null = null
+  nombre?: string 
+  ciudad?: string 
 
-  
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute) {}
 
-  ngOnInit(): void {
-
-    this.route.paramMap.subscribe(params => {
-      this.nombre = params.get('nombre'),
-      this.ciudad = params.get('ciudad')
-      ;
-      console.log('Parámetro de Persona recibidos:', this.nombre, ' y ', this.ciudad);
-    });
+  ngOnInit() {
+    this.nombre = this.route.snapshot.paramMap.get('nombre') || '';
+    this.ciudad = this.route.snapshot.paramMap.get('ciudad') || '';
   }
 
+
 }
+
+

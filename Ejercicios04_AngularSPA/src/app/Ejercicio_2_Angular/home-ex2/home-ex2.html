@@ -6,10 +6,9 @@
         </p><br>
         <div class="inline-flex space-x-5">
             <p class="font-bold">Nombre</p><br>
-            <input type="text" name="nombre" id="nombre" placeholder="nombre">
+            <input type="text" name="nombre" id="nombre" placeholder="" [(ngModel)]="nombre" class="w-15 border rounded">
             <p class=" font-bold">Ciudad</p><br>
-            <select name="ciudad" id="ciudad" class="border-2 rounded">
-                <option value="void"></option>
+            <select name="ciudad" id="ciudad" [(ngModel)]="ciudad" class="border-2 rounded" aria-placeholder="">
                 <option value="madrid">Madrid</option>
                 <option value="barna">Barna</option>
                 <option value="bilbo">Bilbo</option>
@@ -17,7 +16,8 @@
                 <option value="valencia">Valencia</option>
             </select>
             <br>
-            <input type="submit" class="bg-blue-500 text-cyan-50 rounded p-1 cursor-pointer font-bold" name="submit" id="submit" >
+            <button class="bg-blue-600  hover:bg-green-500 text-cyan-50 rounded p-1 cursor-pointer font-bold" (click)="mandarInfo('home-ex2/persona')">
+            Enviar</button>
         </div>
     </div>
     <app-all-back-button></app-all-back-button>
