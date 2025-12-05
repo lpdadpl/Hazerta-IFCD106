@@ -24,6 +24,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @RestController
 @RequestMapping("/api/puestos-trabajo")
+@CrossOrigin(origins = "http://localhost:4200")
 public class PuestoTrabajoController {
 
 
